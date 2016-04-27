@@ -82,7 +82,7 @@ for i in range(n_stud):
 	else :
 		stud_df.college[i] = random.sample(admitted,1)[0] 
 
-	
+
 stud_df.to_csv("./students.csv")
 
 
