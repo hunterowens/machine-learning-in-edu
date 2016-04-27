@@ -5,8 +5,8 @@ Outputs a table named "students"
 with fields:
  "name","sid","race","college","psat","gpa","honors",
  "var1","var2",..."var10" other features (nonpredictive here)
-	for students, more academic, economic, 
-	demographics, etc.
+for students, more academic, economic, 
+demographics, etc.
 
 '''
 
@@ -26,7 +26,7 @@ all_last_names = ["Shah","Lin","Meinshausen","Eneva","Jacobs",
 		"Plagge","Auerbach","Vohra","Ghani","Rowe","Velez",
 		"Brown","Ashktorab","Bashyakarla","Adhikari"]
 
-all_races = ["klingon","romulan","vulcan","cardassian"]
+all_races = ["white","latino","aa","other"]
 
 def collegeChoose(psat, gpa):
 	def admitStud(stud):
